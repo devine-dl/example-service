@@ -1,0 +1,18 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "example-service"
+version = "0.1.0"
+description = "An example Devine Service, with verbose documentation."
+authors = ["rlaphoenix <rlaphoenix@pm.me>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = 'https://github.com/devine-dl/example-service'
+repository = 'https://github.com/devine-dl/example-service'
+packages = [{include = "EXAMPLE"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.6,<3.12"
+devine = "^1.0.0"

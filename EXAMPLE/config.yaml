@@ -1,0 +1,3 @@
+# This config file is automatically loaded into `self.config` class instance variable.
+# I recommend storing information like any de-obfuscated keys, base hosts, endpoints,
+# or other such configuration data.
